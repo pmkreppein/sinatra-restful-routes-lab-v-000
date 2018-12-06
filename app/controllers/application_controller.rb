@@ -5,5 +5,12 @@ class ApplicationController < Sinatra::Base
   end
 
   # code actions here!
+  get('/recipes/new'){
+    erb :new
+  }
+  
+  post('/recipes'){
+    
+  }
 
 end
